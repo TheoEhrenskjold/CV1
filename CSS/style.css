@@ -101,16 +101,16 @@ body{
     
 }
 
-@media (max-width: 600px) { /* iPhone SE width */
+@media (max-width: 600px) { 
     .image-containerportfolio {
-        flex: 0 0 50%; /* Make the image container take up full width */
+        flex: 0 0 50%; 
     }
     .image-containerportfolio img {
-        max-width: 100%; /* Ensure images don't exceed container width */
-        height: auto; /* Maintain aspect ratio */
+        max-width: 100%; 
+        height: auto; 
     }
     #cvsec {
-        max-width: 55%; /* Adjust max-width for smaller screens like iPhone SE */
+        max-width: 55%; 
     }
     #vbgimg{
         max-width: 100%;
