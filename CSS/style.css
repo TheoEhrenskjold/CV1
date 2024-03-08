@@ -85,20 +85,26 @@ body{
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .portfoliocontainer {
     display: flex;
     justify-content: center; 
     align-items: center; 
-    height: 100%;       
+        
 }
 
 .image-containerportfolio {
-    text-align: center; 
-    margin: 20px; 
-    
+    position: relative;
+    width: 100%; 
+    max-width: 100%; 
+    text-align: center;
+}
+
+.image-containerportfolio img {
+    max-width: 100%; 
+    height: auto; 
 }
 
 @media (max-width: 600px) { 
