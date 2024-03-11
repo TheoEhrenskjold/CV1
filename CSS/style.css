@@ -32,9 +32,10 @@
 
 .mainimage-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     display: inline-block;
+    box-sizing: border-box;
 }
 
 #mainimage, #cimage {
@@ -42,14 +43,14 @@
     width: 50%;
     height: auto; 
     border-radius: 50%;     
-    animation: imganimation infinite linear; 
+    animation: imganimation 10s infinite linear; 
     animation-play-state: running;
     animation-duration: 10s; 
 }
 
 @keyframes imganimation {
-    from { transform: translateX(-100%); } 
-    to { transform: translateX(300%); } 
+    0% { transform: translateX(-100%); } 
+    100% { transform: translateX(1000%); } 
 }
 
 #mainimage:hover{
