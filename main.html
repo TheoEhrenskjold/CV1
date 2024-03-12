@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 </head>
 <body>
-
+    <!--HEADER-->
     <header>
         <nav class="navbar">
             <img src="" alt="">
@@ -22,6 +22,9 @@
             <a href="Lorem.html">Lorem</a>
         </nav>
     </header>
+
+    <!--MAIN BODY-->
+
 <div id="mainDiv">
     <h2 >Hello, I am</h2>
     <h1 style="font-size: xx-large;">Theo Ehrenskjöld</h1>
@@ -31,11 +34,30 @@
 <img id="cimage" src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png" alt="C sharp logo">
 </div>
 <div class="mainimage-container">
-    <img id="mainimage" src="Images/384249415_1694182984430034_4519139239530163154_n (2).jpg" alt="A picture of Theo">
+    <img id="mainimage" class="easteregg-button" src="Images/384249415_1694182984430034_4519139239530163154_n (2).jpg" alt="A picture of Theo">
 </div>
     
 
-    <section id="mainsec">      
+<div id="myModal" class="HomeModal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>!!BABA GANOUSH!!</h3>
+        <iframe id="youtubeVideo"
+        width="100%"
+        height="315"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+    </iframe>
+    
+    </div>
+</div>
+
+<!--BOTTOM OF THE BODY-->
+
+    <section id="bottomsec">      
 
         <div class="social-icons">
             <a href="https://github.com/waltersdubbelnugge" class="github-button" target="_blank">
@@ -51,6 +73,11 @@
         
 </section>
 
+<!--JAVA SCRIPT-->
+<script src="src/js/script.js"></script>
+
+
+<!--FOOTER-->
 <footer>
     <p>&copy; 2024 Campus Varberg. All rights reserved. | Trademark &trade;</p>
 </footer>
