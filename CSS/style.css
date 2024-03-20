@@ -40,7 +40,7 @@
 
 #mainimage {
     position: absolute;
-    top: 20%; /* Added 'px' */
+    top: 10vw; /* Added 'px' */
     right: 10%;
     width: 20%;
     max-width: 50%;
@@ -50,7 +50,7 @@
 
 #cimage {
     position: absolute;
-    top: 20%; /* Added 'px' */
+    top: 10vw; /* Added 'px' */
     left: 10%; /* Added 'px' */
     max-width: 100%;
     height: auto;
